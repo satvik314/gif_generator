@@ -8,5 +8,15 @@ Follow these instructions to get the Streamlit app running on your local machine
 
 ### Clone the repository
 ```bash
-git clone <repository_name>
+git clone https://github.com/satvik314/gif_generator
+```
+
+### Navigate to the cloned repository
+```bash
+cd gif_generator
+```
+
+### Add Replicate Key to ```secrets.toml```
+```bash
+REPLICATE_API_TOKEN = "<your_token>"
 ```
