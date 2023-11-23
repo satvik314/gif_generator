@@ -6,27 +6,27 @@ This repository contains a Streamlit application that allows you to convert imag
 
 Follow these instructions to get the Streamlit app running on your local machine:
 
-### Clone the repository
+### 1. Clone the repository
 ```bash
 git clone https://github.com/satvik314/gif_generator
 ```
 
-### Navigate to the cloned repository
+### 2. Navigate to the cloned repository
 ```bash
 cd gif_generator
 ```
 
-### Add Replicate Key to ```secrets.toml```
+### 3. Add Replicate Key to ```secrets.toml```
 ```bash
 REPLICATE_API_TOKEN = "<your_token>"
 ```
 
-### Install required Python libraries
+### 4. Install required Python libraries
 ```bash
 pip install -r requirements.txt
 ```
 
-### Run the Streamlit App
+### 5. Run the Streamlit App
 ```bash
 streamlit run app.py
 ```
