@@ -16,9 +16,10 @@ git clone https://github.com/satvik314/gif_generator
 cd gif_generator
 ```
 
-### 3. Add Replicate Key to ```secrets.toml```
+### 3. Add Replicate Key and OpenAI Key to ```secrets.toml```
 ```bash
 REPLICATE_API_TOKEN = "<your_token>"
+OPENAI_API_KEY = <"your_token">
 ```
 
 ### 4. Install required Python libraries
@@ -28,7 +29,7 @@ pip install -r requirements.txt
 
 ### 5. Run the Streamlit App
 ```bash
-streamlit run app.py
+streamlit run gif_app.py
 ```
 
 In the app, upload an image using the file uploader. Once the image is uploaded, it's displayed on the app. Click the "Convert to GIF" button to generate a GIF from the uploaded image. The GIF is displayed in the app.
