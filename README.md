@@ -32,4 +32,4 @@ pip install -r requirements.txt
 streamlit run gif_app.py
 ```
 
-In the app, upload an image using the file uploader. Once the image is uploaded, it's displayed on the app. Click the "Convert to GIF" button to generate a GIF from the uploaded image. The GIF is displayed in the app.
+In the app, enter the description of the GIF you want to generate and press 'blow my mind' button. Voila! your GIF will be ready in a couple of minutes!
