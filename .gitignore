@@ -6,6 +6,11 @@ __pycache__/
 # C extensions
 *.so
 
+.streamlit
+.streamlit/secrets.toml
+
+llama_fire.png
+
 # Distribution / packaging
 .Python
 build/
