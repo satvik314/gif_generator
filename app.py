@@ -26,7 +26,7 @@ if uploaded_file is not None:
     image_uri = f"data:image/png;base64,{img_str}"
 
 # Run API when button is clicked
-if st.button("Run API"):
+if st.button("Generate the GIF"):
     output = replicate.run(
         "stability-ai/stable-video-diffusion:3f0457e4619daac51203dedb472816fd4af51f3149fa7a9e0b5ffcf1b8172438",
         input={
