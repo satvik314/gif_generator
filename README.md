@@ -20,3 +20,15 @@ cd gif_generator
 ```bash
 REPLICATE_API_TOKEN = "<your_token>"
 ```
+
+### Install required Python libraries
+```bash
+pip install -r requirements.txt
+```
+
+### Run the Streamlit App
+```bash
+streamlit run app.py
+```
+
+In the app, upload an image using the file uploader. Once the image is uploaded, it's displayed on the app. Click the "Convert to GIF" button to generate a GIF from the uploaded image. The GIF is displayed in the app.
