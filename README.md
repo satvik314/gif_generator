@@ -2,7 +2,11 @@
 
 by [Satvik](https://www.linkedin.com/in/satvik-paramkusham/)
 
-This repository contains a Streamlit application that allows you to convert images into GIFs using the Replicate API. The app accepts image files (PNG, JPG, JPEG), converts them into a base64 encoded string, and then sends it to the Replicate API for GIF generation.
+This repository contains a Streamlit application that allows you to convert any prompt into a GIF. 
+
+GIF Generator uses DALLE-3 to generate images and newly released Stable Video Diffusion to convert image to GIF.
+
+You will need an API key from OpenAI and Replicate to run this application.
 
 ## Getting Started
 
